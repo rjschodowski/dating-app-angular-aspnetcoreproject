@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HPS\\angular-projects\\DatingAppProject\\API\\API.csproj": {}
+    "c:\\Users\\HPS\\angular-projects\\DatingAppProject\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HPS\\angular-projects\\DatingAppProject\\API\\API.csproj": {
+    "c:\\Users\\HPS\\angular-projects\\DatingAppProject\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HPS\\angular-projects\\DatingAppProject\\API\\API.csproj",
+        "projectUniqueName": "c:\\Users\\HPS\\angular-projects\\DatingAppProject\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\HPS\\angular-projects\\DatingAppProject\\API\\API.csproj",
+        "projectPath": "c:\\Users\\HPS\\angular-projects\\DatingAppProject\\API\\API.csproj",
         "packagesPath": "C:\\Users\\HPS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HPS\\angular-projects\\DatingAppProject\\API\\obj\\",
+        "outputPath": "c:\\Users\\HPS\\angular-projects\\DatingAppProject\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HPS\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
